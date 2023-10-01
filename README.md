@@ -2,7 +2,7 @@
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/stackblitz-starters-zrl3nz)
 
-Hello team,
+**Hello team**,
 
 Thanks for this assignment which I really enjoyed builiding. While I have done my best to do all that was expected.
 
@@ -11,6 +11,10 @@ Given my little experience in testing I have only been able to write two basic t
 And with no experience using TypeScript, I have tried learning as much within the given timeframe. Hence, sharing both the JavaScript and TypeScript versions.
 
 As for assumptions and status, these are documented ahead of each point below.
+
+**Cheers,**
+Nitin Suri
+
 
 **BUS REPORT APP REACT TYPESCRIPT TEST**
 
