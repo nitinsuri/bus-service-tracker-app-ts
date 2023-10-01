@@ -8,7 +8,7 @@ import Loader from './Components/Loader/Loader';
 import AccordionPanel from './Components/AccordionPanel/AccordionPanel';
 import './style.scss';
 
-export const App: FC = () => {
+const App: FC = () => {
 	const { data, loading, error } = useFetch('./bus.json');
 	const [expanded, setExpanded] = useState('panel0');
 	const { sectionTitle } = appStaticLabels;
@@ -39,3 +39,5 @@ export const App: FC = () => {
 		</>
 	);
 };
+
+export default App;
