@@ -90,8 +90,14 @@ button.save-notes-button {
 // MUI customisation
 .MuiPaper-root.Mui-expanded {
   border: 1px solid #ccc;
-  border-radius: 6px;
+  border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(156, 163, 175, 0.5) 0px 10px 15px -3px,
     rgba(156, 163, 175, 0.5) 0px 4px 6px -4px;
+  transition: all 0.25s;
+}
+
+.MuiAccordionSummary-root.Mui-expanded {
+  background-color: lightskyblue;
+  border-radius: 6px 6px 0 0;
 }
