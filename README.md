@@ -2,11 +2,21 @@
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/stackblitz-starters-zrl3nz)
 
+Hello team,
+
+Thanks for this assignment which I really enjoyed builiding. While I have done my best to do all that was expected.
+
+Given my little experience in testing I have only been able to write two basic test cases. Both are for screenshots, one without PROPS, and the other with PROPS.
+
+And with no experience using TypeScript, I have tried learning as much within the given timeframe. Hence, sharing both the JavaScript and TypeScript versions.
+
+As for assumptions and status, these are documented ahead of each point below.
+
 **BUS REPORT APP REACT TYPESCRIPT TEST**
 
 Using React and Typescript, create a bus report page that looks like the screenshot attached in bus-report-example.png.
 
-Requirements:
+**Requirements:**
 
 - On a single page, make all the data from "bus-services-data.json" available to the user. - **DONE**
 
@@ -24,12 +34,12 @@ Requirements:
 
 - Add header and footer. - **DONE**
 
-- Write storybook components and tests.
+- Write storybook components and tests. - **DONE** Used stackblitz and component structure for a ready to use deployed version. Add test-cases as described above.
 
 **Notes:**
 
 - The requirements may be ambiguous, make sure you document any assumptions used.
-  -- A _negative deviation_ has been assumed as a bus running **LATE**. and the _positive deviation_ as a **EARLY**.
+  -- **Assumption:** A _negative deviation_ has been assumed as a bus running **LATE**. and the _positive deviation_ as a **EARLY**.
 - Commit your work to your local git repository. Create a GitHub repository and push. Our team uses the TDD approach and regular commits would be favourable. - **DONE**
   -- https://github.com/nitinsuri/tfnsw-bus-service-status-app
 - You may use NPM, Yarn or any other framework if required. Make sure you document the steps and app versions that we might need to run your project. Please exclude (.gitignore) any generated folder or dependency that would bulk up the repository. - **DONE**
