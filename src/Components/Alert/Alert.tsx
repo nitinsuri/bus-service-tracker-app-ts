@@ -1,6 +1,17 @@
-import * as React from 'react';
-import Alert from '@mui/material/Alert';
+import { FC } from 'react';
 
-export default function Alerts(props) {
-  return <Alert severity={props.severity}>{props.message}</Alert>;
+interface AlertProps {
+	severity: string;
+	message: string;
 }
+
+const Alert: FC<AlertProps> = (props) => {
+	const { severity, message } = props;
+	return (
+		<>
+			<div className={'alert '+severity}>{message}</div>
+		</>
+	);
+};
+
+export default Alert;

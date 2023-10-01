@@ -1,3 +1,14 @@
+:root {
+  --default: rgb(204, 204, 204);
+  --defaultBg: rgba(204, 204, 204, 0.2);
+  --error: rgb(211, 47, 47);
+  --errorBg: rgba(211, 47, 47, 0.1);
+  --success: rgb(46, 125, 50);
+  --successBg: rgba(46, 125, 50, 0.1);
+  --info: rgb(2, 136, 209);
+  --infoBg: rgba(2, 136, 209, 0.1);
+}
+
 * {
   box-sizing: border-box;
   font-family: 'Albert Sans', system-ui, sans-serif;
@@ -7,6 +18,7 @@
 @import 'footer.module';
 @import 'loader.module';
 @import 'flat-list';
+@import 'alert-status';
 
 body {
   font-family: 'Albert Sans', system-ui, sans-serif;
@@ -31,18 +43,6 @@ h1 {
 .list-header {
   background-color: #eee;
   font-weight: 700;
-}
-
-.early {
-  color: red;
-}
-
-.on-time {
-  color: green;
-}
-
-.late {
-  color: blue;
 }
 
 .highlight {

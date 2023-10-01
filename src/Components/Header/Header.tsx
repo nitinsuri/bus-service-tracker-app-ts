@@ -1,6 +1,6 @@
-import React from 'react';
+import { FC } from 'react';
 
-export default function Header() {
+const Header: FC = () => {
   return (
     <header>
       <nav>
@@ -11,3 +11,5 @@ export default function Header() {
     </header>
   );
 }
+
+export default Header;
