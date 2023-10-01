@@ -10,6 +10,7 @@ import Chip from '@mui/material/Chip';
 import Divider from '@mui/material/Divider';
 import Stack from '@mui/material/Stack';
 
+// export const AccordionPanel: FC<{ name: string }> = ({ name }) => {}
 const AccordionPanel = (props) => {
   const { service, idx, expanded, handleAccordionChange } = props;
 
