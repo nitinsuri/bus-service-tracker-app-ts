@@ -7,12 +7,20 @@
   --successBg: rgba(46, 125, 50, 0.1);
   --info: rgb(2, 136, 209);
   --infoBg: rgba(2, 136, 209, 0.1);
+
+  --primary-font: 'Albert Sans';
+  --primary-color: #333333;
 }
 
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
-  font-family: 'Albert Sans', system-ui, sans-serif;
+  font-family: var(--primary-font), system-ui, sans-serif;
+  color: var(--primary-color);
 }
+
+@import 'mixins';
 
 @import 'header.module';
 @import 'footer.module';
@@ -65,7 +73,7 @@ textarea {
   }
 }
 
-button.save-notes-button {
+button.primary {
   background-color: #e7e7e7;
   border: 1px solid #e0e0e0;
   border-radius: 6px;
