@@ -9,15 +9,15 @@
   --infoBg: rgba(2, 136, 209, 0.1);
 
   --primary-font: 'Albert Sans';
-  --primary-color: #333333;
+  --primary-color: #fff;
 }
 
 *,
 *::after,
 *::before {
   box-sizing: border-box;
-  font-family: var(--primary-font), system-ui, sans-serif;
   color: var(--primary-color);
+  font-family: var(--primary-font), system-ui, sans-serif;
 }
 
 @import 'mixins';
@@ -29,8 +29,9 @@
 @import 'alert-status';
 
 body {
-  font-family: 'Albert Sans', system-ui, sans-serif;
-  color: black;
+  background-color: #001428;
+  color: var(--primary-color);
+  font-family: var(--primary-font), system-ui, sans-serif;
   margin: 0;
   min-width: 520px;
   min-height: 100vh;
@@ -49,7 +50,7 @@ h1 {
 }
 
 .list-header {
-  background-color: #eee;
+  background-color: rgba(204, 204, 204, 0.2);
   font-weight: 700;
 }
 
@@ -97,6 +98,7 @@ button.primary {
 
 // MUI customisation
 .MuiPaper-root.Mui-expanded {
+  background-color: #001428;
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
@@ -104,8 +106,22 @@ button.primary {
     rgba(156, 163, 175, 0.5) 0px 4px 6px -4px;
   transition: all 0.25s;
 }
-
 .MuiAccordionSummary-root.Mui-expanded {
-  background-color: lightskyblue;
+  background-color: rgba(204, 204, 204, 0.2);
   border-radius: 6px 6px 0 0;
+  color: #001428;
+}
+
+.MuiAccordionSummary-content {
+  color: #001428;
+  &.Mui-expanded {
+    color: #fff;
+    & > strong {
+      color: #fff;
+    }
+  }
+
+  & > strong {
+    color: #001428;
+  }
 }

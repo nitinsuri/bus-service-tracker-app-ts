@@ -4,6 +4,7 @@
   li {
     display: flex;
     padding: 1rem;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.2);
     > * {
       flex: 1 1 auto;
       width: 30%;
